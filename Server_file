@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceList xmlns="urn:dvb:metadata:servicediscovery:2023" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:dvbisd="urn:dvb:metadata:servicediscovery:2023" xmlns:tva="urn:tva:metadata:2023" xmlns:hls="vnd:apple:mpegurl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:tva:mpeg7:2008 xsd/tva_mpeg7.xsd urn:tva:metadata:2023 xsd/tva_metadata_3-1.xsd urn:dvb:metadata:servicediscovery:2023 xsd/dvbi_v5.0.xsd vnd:apple:mpegurl xsd/hls_v1.0.xsd" xml:lang="en" version="1">
+	<Name>Test FAST channels</Name>
+	<ProviderName>FAST</ProviderName>
+	<LCNTableList>
+		<LCNTable>
+			<LCN channelNumber="5001" serviceRef="tag:tpv.com,2023:wurl_integrationchannel_1"/>
+			<LCN channelNumber="5002" serviceRef="tag:tpv.com,2023:amagi_test_1"/>
+		</LCNTable>
+	</LCNTableList>
+	<Service version="1">
+		<UniqueIdentifier>tag:tpv.com,2023:wurl_integrationchannel_1</UniqueIdentifier>
+		<ServiceInstance priority="1">
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://cec4ab2e92154424be43931b7f0b835a.mediatailor.us-east-1.amazonaws.com/v1/master/c05946d95894fc7462ef88cc98dfc97cc1f6994e/integration_channel_v2/playlist.m3u8?ads.wurl_name=Integration_Channel&amp;ads.wurl_channel=67890</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="en">Wurl test channel</ServiceName>
+		<ProviderName>Wurl</ProviderName>
+		<RelatedMaterial>
+			<!-- This is the channel logo, but there doesn't seem to be a logo provided by Wurl, only thumbnails-->
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/jpeg">https://dki01q1l7yn3y.cloudfront.net/thumbnails-platform-prod/assets/cs::content::channels/0-2048/561-channel-bug_v2.png</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+		<ServiceDescription xml:lang="en" length="short">Wurl test channel</ServiceDescription>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:tpv.com,2023:amagi_test_1</UniqueIdentifier>
+		<ServiceInstance priority="1">
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://cdn-apse1-prod.tsv2.amagi.tv/linear/AmagiHLStest/playlist.m3u8</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="en">Amagi test channel</ServiceName>
+		<ProviderName>Amagi</ProviderName>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+		<ServiceDescription xml:lang="en" length="short">Amagi test channel</ServiceDescription>
+	</Service>
+</ServiceList>
