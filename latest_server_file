@@ -1,0 +1,668 @@
+<ServiceList xmlns="urn:dvb:metadata:servicediscovery:2023" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:dvbisd="urn:dvb:metadata:servicediscovery:2023" xmlns:tva="urn:tva:metadata:2023" xmlns:hls="vnd:apple:mpegurl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2023 dvbi_v5.0.xsd vnd:apple:mpegurl hls_v1.0.xsd" xml:lang="es" version="1">
+<Name xml:lang="es">Channels</Name>
+<ProviderName xml:lang="es">TitanOS</ProviderName>
+<LCNTableList>
+<LCNTable>
+<LCN channelNumber="5001" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4166"/>
+<LCN channelNumber="5002" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4217"/>
+<LCN channelNumber="5003" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4300"/>
+<LCN channelNumber="5004" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4359"/>
+<LCN channelNumber="5005" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4391"/>
+<LCN channelNumber="5006" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4429"/>
+<LCN channelNumber="5007" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4485"/>
+<LCN channelNumber="5008" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4523"/>
+<LCN channelNumber="5009" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4770"/>
+<LCN channelNumber="5010" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4848"/>
+<LCN channelNumber="5011" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4904"/>
+<LCN channelNumber="5012" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4956"/>
+<LCN channelNumber="5013" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/4966"/>
+<LCN channelNumber="5014" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5092"/>
+<LCN channelNumber="5015" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5176"/>
+<LCN channelNumber="5016" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5213"/>
+<LCN channelNumber="5017" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5288"/>
+<LCN channelNumber="5018" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5398"/>
+<LCN channelNumber="5019" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5450"/>
+<LCN channelNumber="5020" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5530"/>
+<LCN channelNumber="5021" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5593"/>
+<LCN channelNumber="5022" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5681"/>
+<LCN channelNumber="5023" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5740"/>
+<LCN channelNumber="5024" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5778"/>
+<LCN channelNumber="5025" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5819"/>
+<LCN channelNumber="5026" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5903"/>
+<LCN channelNumber="5027" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5941"/>
+<LCN channelNumber="5028" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5943"/>
+<LCN channelNumber="5029" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/5977"/>
+<LCN channelNumber="5030" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/6001"/>
+<LCN channelNumber="5031" serviceRef="tag:titanos.tv,2023-08-13:IntegrationChannel/6023"/>
+</LCNTable>
+</LCNTableList>
+<ContentGuideSourceList>
+<ContentGuideSource CGSID="csg_id_01">
+<Name xml:lang="es">Channels TV Guide</Name>
+<ProviderName xml:lang="es">TitanOS</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<URI>http://dev03-gaea.titanos.tv:3000/dvbi/v1/schedule_info</URI>
+</ScheduleInfoEndpoint>
+</ContentGuideSource>
+</ContentGuideSourceList>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4166</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://ztnr.rtve.es/ztnr/1688877.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">La 1</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/d8qqvc5pytv8le9t6tko5ypeyxkh</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4217</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://ztnr.rtve.es/ztnr/1688885.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">La 2</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/0o9ud638zcy6qtpucu0txux2qwe8</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4300</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://streaming012.gestec-video.com/hls/eltoro_bal.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">El Toro TV</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/oj0opj9a8ogftxh0iurl0s8ib6ry</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4359</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://ztnr.rtve.es/ztnr/1694255.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">24h</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/2ktn03r8g52ijhl8z075llx7mjtd</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4391</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://ztnr.rtve.es/ztnr/1712295.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Teledeporte</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/xi7fiiin5wlpkuq6uqjqlusd79aa</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4429</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://directes-tv-cat.ccma.cat/live-origin/esport3-hls/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Esport 3</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/11hqm1exjhgb2n33zkksl1yerhsp</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4485</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">RealMadrid TV</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/xde4lskcy3s6jaun574ogwg7bd2o</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4523</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://ztnr.rtve.es/ztnr/5466990.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Clan</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/u9yrj0ep6s4mnuptlnuer4vzgkjn</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4770</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://cdnlive.codev8.net/rtvalive/smil:channel1.smil/playlist.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Canal Sur Andalucía</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/xt8cifs0oz32l52nis6r3429465m</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4848</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://cdnapi.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_01fn4ycl/format/applehttp/.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Castilla-La Mancha Media</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/uy9li3lxy6bfmdpvu93ldy0rg5yt</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4904</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://directes-tv-cat.ccma.cat/live-origin/tv3-hls/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">TV3</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/vry5wmykpklrmuydz2d9aqoezapa</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4956</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://directes-tv-int.ccma.cat/live-origin/canal324-hls/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">324</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/ede3s7t2rw25gyxqg2v0f09bm9bp</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/4966</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://directes-tv-cat.ccma.cat/live-origin/c33-super3-hls/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">33</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/ivd4gsni0zonxspbo7c82hbict10</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5092</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">betevé</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/66hcwttcvpc3e9zlo7y4gsrrv0pg</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5176</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://mdstrm.com/live-stream-playlist/636bd70b44680408872dbfc6.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">8 TV</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/jpdqusgkdv5322yfr1314qa36w74</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5213</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://telemadrid-23.secure2.footprint.net/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Telemadrid</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/ifeb9bfw0m6uhanvv2ovr39sft5h</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5288</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://laotra-1-23.secure2.footprint.net/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">LaOtra</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/rkszmrkac03xun9vkyut8jwseg4f</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5398</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-central-1/6057955885001/playlist_dvr.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">À Punt</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/wpsc4o6hb3mn3xx04k3qc0mb73ty</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5450</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://cdnlive.codev8.net/canalextremaduralive/smil:channel1DVR.smil/playlist.m3u8?DVR</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Canal Extremadura</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/c1do29pi6xhvuh6508o9d4ve9n6a</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5530</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://europa-crtvg.flumotion.com/playlist.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">TVG</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/ovgk5f008mtlungh4bj9lnewwwnr</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5593</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">ETB 1</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/6ocyu029yaa5g38u15x15vdpuikw</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5681</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">ETB 2</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/cwe0couulyv08lmb2rqtxayy15b3</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5740</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://cdnlive.codev8.net/rtpalive/smil:directo/playlist.m3u8?DVR</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">TPA7</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/4zu41xnigyxai8ahq750fzl03scq</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5778</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">7 R. de Murcia</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/oyckygflo8cd6f6xdb8fvf3tzdlp</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5819</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">EITB Basque</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/3rpcpcbyk3s72e1k12y23k0zpczx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5903</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://www.bloomberg.com/media-manifest/streams/eu.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Bloomberg Europe</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/8jchfsl8lkq7v9ijqqi0epbs1k82</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5941</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_sd/Live/channel(skynews)/index_hd.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Sky News UK</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/xvqf2gcdjszpktodqzb0aoi85kv3</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5943</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">TeleSUR Venezuela</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/qugty2xe3jg6gvw4t4uhwnogu5td</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/5977</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://livees.cgtn.com/1000e/prog_index.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">CGTN</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/gj3jd2xmtkrr3n6db1ai4v9js7ab</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/6001</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://live-hls-web-aje.getaj.net/AJE/index.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Al Jazeera Qatar</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/xafyknd49ymf2tx2h88q63lb118q</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:titanos.tv,2023-08-13:IntegrationChannel/6023</UniqueIdentifier>
+<ServiceInstance>
+<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<URI>https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8</URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName xml:lang="es">Arirang TV Korea</ServiceName>
+<ProviderName>TitanOS</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/0hndfnohnqqpno9el68yb6n7n3uv</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+</Service>
+</ServiceList>
